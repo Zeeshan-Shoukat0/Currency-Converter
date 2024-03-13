@@ -5,13 +5,18 @@ class CurrencyConverter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-        body: Center(
-      child: Column(
+      body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('hello'),
+          Text(
+            'hello',
+            style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ],
       ),
-    ));
+    );
   }
 }
